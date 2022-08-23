@@ -1,16 +1,26 @@
 # Developer Blog Site
 
 ## Tech Stack
+
 Rendering Views - Next.js (React.js)
+
 CSS - Tailwind
+
 UX & Accessibility - Remix
+
 Redux - Redux Toolkit (RTK)
+
 Caching - TBD if even needed..
+
 Reverse Proxy - NGINX
 
 ## Todo List
+
+
 Navigation Bar - Sticky
+
 Markdown - https://blog.bitsrc.io/build-a-blog-with-react-and-markdown-files-30d969ce62d5 
+
 Create custom "Code" component to allow for Syntax Highlighting with colors of my choice. - See above link
 
 
