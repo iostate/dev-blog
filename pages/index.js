@@ -1,8 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from '../styles/Home.module.css';
+import Button from '../src/Button';
+import Navbar from '../src/Navbar';
 
 const Home = () => {
   const [data, setData] = useState('');
@@ -27,6 +30,23 @@ const Home = () => {
         <meta name='description' content='os.args Go Programming Language (Golang)' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
+      {/* Implementing Navigation Bar */}
+      {/* <nav>
+        <ul>
+          <li>
+            <Link href='/'>
+              <a>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/articles'>
+              <a>Articles</a>
+            </Link>
+          </li>
+        </ul>
+      </nav> */}
+      <Navbar />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -73,6 +93,7 @@ const Home = () => {
           </span>
         </a>
       </footer>
+      <Button />
     </div>
   );
 };

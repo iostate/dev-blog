@@ -8,6 +8,12 @@ Redux - Redux Toolkit (RTK)
 Caching - TBD if even needed..
 Reverse Proxy - NGINX
 
+## Todo List
+Navigation Bar - Sticky
+Markdown - https://blog.bitsrc.io/build-a-blog-with-react-and-markdown-files-30d969ce62d5 
+Create custom "Code" component to allow for Syntax Highlighting with colors of my choice. - See above link
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
