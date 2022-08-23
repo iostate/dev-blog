@@ -1,3 +1,14 @@
+# Developer Blog Site
+
+## Tech Stack
+Rendering Views - Next.js (React.js)
+CSS - Tailwind
+UX & Accessibility - Remix
+Redux - Redux Toolkit (RTK)
+Caching - TBD if even needed..
+Reverse Proxy - NGINX
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
