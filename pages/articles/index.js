@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
-const Home = () => {
+const Articles = () => {
   const [data, setData] = useState('');
   useEffect(() => {
     const fetchData = async () => {
@@ -23,17 +23,15 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>os.args in Golang - CLI App Development</title>
-        <meta name='description' content='os.args Go Programming Language (Golang)' />
+        <title>Pokedex API Calls</title>
+        <meta name='description' content='Pokedex API Consumption' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href='https://nextjs.org'>Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Articles</h1>
 
-        <p className={styles.description}>Today we are going to be going over os.args in Golang</p>
+        <h2>os.args in Go (Golang)</h2>
 
         <div className={styles.grid}>
           <a href='https://nextjs.org/docs' className={styles.card}>
@@ -76,4 +74,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default Articles;
